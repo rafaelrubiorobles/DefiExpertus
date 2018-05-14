@@ -4,11 +4,16 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Insert title here</title>
+<title>Defi Expertus</title>
+<!-- stylesheet pour le bootstrap -->
+<link rel="stylesheet" type="text/css" href="css/main.css"/>
+<!-- stylesheet normalize -->
+<link rel="stylesheet" type="text/css" href="css/normalize.css"/>
 </head>
-<div>
+<div id="titrePage">
 <header>
 	<h1>Hello Expertus</h1>
+	<h1>Base de données et histoire des comic books</h1>
  </header>
 </div>
 

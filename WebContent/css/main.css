@@ -1,4 +1,10 @@
 @CHARSET "ISO-8859-1";
+
+/*Titre du page*/
+#titrePage{
+	text-align: center;
+}
+
 /*GRID*/
 
 /*les balises em n'impactent pas le rendu visuel */
