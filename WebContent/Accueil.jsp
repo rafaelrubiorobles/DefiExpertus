@@ -100,7 +100,7 @@
     <div class="carousel-inner" role="listbox">
 
       <div class="item active">
-        <img src="images/Justice-league-banner.jpg" alt="comic books" width="460" height="345">
+        <img src="images/batman-banner.jpg" alt="comic books" width="460" height="345">
         <div class="carousel-caption">
           <h3>Comic Books</h3>
           <p>Bienvenue à ma collection de comic books</p>
