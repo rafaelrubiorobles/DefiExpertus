@@ -5,32 +5,15 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>Defi Expertus</title>
+
+
 <!-- stylesheet pour le bootstrap -->
-<link rel="stylesheet" type="text/css" href="css/main.css"/>
+<link rel="stylesheet" type="text/css" href="myCss/style.css"/>
 <!-- stylesheet normalize -->
-<link rel="stylesheet" type="text/css" href="css/normalize.css"/>
+<link rel="stylesheet" type="text/css" href="myCss/normalize.css"/>
 
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
-<!-- Bootstrap Core CSS -->
-    <link href="bootstrap-3.3.6-dist/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Custom Fonts -->
-    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <!-- Google font_Great + vibes-->
-    <link href='http://fonts.googleapis.com/css?family=Great+Vibes' rel='stylesheet' type='text/css'>
-    <!-- Bootstrap Core JavaScript -->
-    <script src="bootstrap-3.3.6-dist/js/bootstrap.min.js"></script>
-    
-      <style>
-  .carousel-inner > .item > img,
-  .carousel-inner > .item > a > img {
-      width: 100%;
-      margin: auto;
-  }
-  </style>
+<%@ include file="include/BoostrapFile.jsp" %>
+ 
   
 </head>
 <div id="titrePage">
@@ -41,51 +24,10 @@
 </div>
 
 <body>
-<nav class="navbar navbar-inverse"><!----[MENU_START]--------------------------->
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>                        
-      </button>
-      <a class="navbar-brand" href="#">Rafael Comic Books</a>
-    </div>
-    <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav"> <!-------------------------ACCUEIL --------------------------->
-        <li class="active"><a href="#">Accueil</a></li>
-        <li class="dropdown">
-          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Gestion BD <span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="#">Affichage</a></li>
-            <li><a href="#">Ajouter</a></li>
-            <li><a href="#">Modifier</a></li>
-			<li><a href="#">Supprimer</a></li>
-          </ul>
-        </li>   
-      </ul>
-	  
-	  <ul class="nav navbar-nav"><!-------------------------DÉMO --------------------------->
-        <li class="dropdown">
-          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Démo<span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="#">Histoire</a></li>
-            <li><a href="#">Personnages</a></li>
-          </ul>
-        </li>
-		   <li><a href="#">Contact</a></li><!---------------CONTACT --------------------------->
-      </ul>
-	  
-      <ul class="nav navbar-nav navbar-right"><!------------SOCIAL MEDIA --------------------------->
-        <li><a href="#"><span class="glyphicon glyphicon-user"></span>LinkedIn</a></li>
-        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span>Instagram</a></li>
-      </ul>
-    </div>
-  </div>
-</nav><!----[MENU_END]--------------------------->
+<%@ include file="include/Menu.jsp" %>
   
  
-<div class="container"><!------------CAROUSEL --------------------------->
+<div class="container container_carousel"><!------------CAROUSEL --------------------------->
   <br>
   <div id="myCarousel" class="carousel slide" data-ride="carousel">
     <!-- Indicators -->
@@ -173,7 +115,7 @@
                                  src="images/superman.jpg"
                                  alt="block de langauge web">
 
-                            <p>Je garde toujours le cap vers l'avant.</p>
+                            <p id="intro_text">Je garde toujours le cap vers l'avant.</p>
                         </div>
 						    </div>     <!-- /.Row -->
 							    </div>
