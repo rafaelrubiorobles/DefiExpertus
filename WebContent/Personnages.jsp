@@ -10,9 +10,9 @@
 <!-- stylesheet normalize -->
 <link rel="stylesheet" type="text/css" href="myCss/normalize.css"/>
 
-<%@ include file="include/BoostrapFile.jsp" %>
+
 </head>
 <body>
-<%@ include file="include/Menu.jsp" %>
+<%@ include file="includes/menu.jsp" %>
 </body>
 </html>

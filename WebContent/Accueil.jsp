@@ -1,159 +1,85 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Defi Expertus</title>
+<title>Accueil</title>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- =======================Menu_css======================================================= -->
+<link rel="stylesheet" type="text/css" href="css/styles.css">
+<link rel="stylesheet" type="text/css" href="css/Hero.css">
+<script type="text/javascript" src="js/Hero.js"></script>
+<!-- =======================Google fonts ================================================== -->
+<link rel="stylesheet"
+	href="https://fonts.googleapis.com/css?family=Kaushan Script">
+<link href='http://fonts.googleapis.com/css?family=Cookie'
+	rel='stylesheet' type='text/css'>
+<!-- =======================W3CSS & Bootstrap_css============================================ -->
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script
+	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
-
-<!-- stylesheet pour le bootstrap -->
-<link rel="stylesheet" type="text/css" href="myCss/style.css"/>
-<!-- stylesheet normalize -->
-<link rel="stylesheet" type="text/css" href="myCss/normalize.css"/>
-
-<%@ include file="include/BoostrapFile.jsp" %>
- 
-  
 </head>
-<div id="titrePage">
-<header>
-	<h1>Hello Expertus</h1>
-
- </header>
-</div>
-
 <body>
-<%@ include file="include/Menu.jsp" %>
-  
- 
-<div class="container container_carousel"><!------------CAROUSEL --------------------------->
-  <br>
-  <div id="myCarousel" class="carousel slide" data-ride="carousel">
-    <!-- Indicators -->
-    <ol class="carousel-indicators">
-      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-      <li data-target="#myCarousel" data-slide-to="1"></li>
-      <li data-target="#myCarousel" data-slide-to="2"></li>
-      <li data-target="#myCarousel" data-slide-to="3"></li>
-    </ol>
+	<%@ include file="includes/menu.jsp"%><!-- ========= INCLUDE MENU DE NAVIGATION ============   -->
+	<div class="hero-image">
+		<div class="hero-text">
+			<h1 style="font-size: 50px; color: #f73200;">Bienvenue</h1>
 
-    <!-- Wrapper for slides -->
-    <div class="carousel-inner" role="listbox">
+			<h2 style="color: #f73200;">
+				<div class="a_typewrite">
+					<a href="" class="typewrite" data-period="2000"
+						data-type='[ "Avec de grands pouvoirs", "vient de grandes responsabilités."]'>
+						<span class="wrap"></span>
+					</a>
+				</div>
+			</h2>
+			<button id="boutton_anchor">
+				<a href="#section_intro">Détails</a>
+			</button>
+		</div>
+	</div>
 
-      <div class="item active">
-        <img src="images/batman-banner.jpg" alt="comic books" width="460" height="345">
-        <div class="carousel-caption">
-          <h3>Comic Books</h3>
-          <p>Bienvenue à ma collection de comic books</p>
-        </div>
-      </div>
+	<section class="container" id="section_intro">
+	<h2 class="text-center">Introduction</h2>
 
-      <div class="item">
-        <img src="images/the-flash-banner.jpg" alt="spiderman" width="460" height="345">
-        <div class="carousel-caption">
-          <h3>Spiderman</h3>
-          <p>Toujours en alerte afin de combattre les forces du mal.</p>
-        </div>
-      </div>
-    
-      <div class="item">
-        <img src="images/spider-man-banner.jpg" alt="multiple_comic_books" width="460" height="345">
-        <div class="carousel-caption">
-          <h3>Comic book vedette</h3>
-          <p>Super promo 3 pour 1</p>
-        </div>
-      </div>
+	<!-- Image Header -->
+	<div class="container intro_paragraphe">
+		<div class="row">
+			<div class="col-lg-8 col-md-8 col-sm-12">
 
-      <div class="item">
-        <img src="images/super-man-banner.jpg" alt="captain-america" width="460" height="345">
-        <div class="carousel-caption">
-          <h3>Captain-America</h3>
-          <p>Captain America sans détour! </p>
-        </div>
-      </div>
-  
-    </div>
+				<p>
+					<i class="fa fa-clock-o"></i> Bonjour mon nom est Rafael Rubio et
+					je suis un développeur fullstack
+				</p>
 
-    <!-- Left and right controls -->
-    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-      <span class="sr-only">Previous</span>
-    </a>
-    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-      <span class="sr-only">Next</span>
-    </a>
-  </div>
-</div><!-----./cONTAINER CAROUSEL --------------------------->
+				<p>En tant que créateur de site web, j'utilise mes talents ainsi
+					que ma créativité afin de créer ce projet qui est basé sur une de
+					mes passion qui est la collection de comic book</p>
 
- <!--///////////////////////////////////////////////////////////////////////////////////////////[Page Content-Fin]-->
+				<p>À travers mes diverses connaissance et compétences, ce projet
+					est entièrement développé sous les languages suivants: HTML5, CSS3,
+					BOOTSTRAP, W3CSS, JAVA SCRIPT, JAVA JEE,MYSQL</p>
 
-    <section class="container ">
-                <h2 class="text-center">Introduction</h2>
+				<p>Mes pouvoirs en tant qu'intégrateur web est la créativité
+					combiné avec la passion et l'inspiration dans le but de délivrer un
+					projet original et fonctionnel qui bien sûre va satisfaire aux
+					exigences du client.</p>
+			</div>
 
-                <!-- Image Header -->
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-8 col-md-8 col-sm-12">
+			<div class="col-lg-4 col-md-4 col-sm-12"
+				id="superman_intro_paragraphe">
+				<img class="img-responsive  reduced_1200-300" width="360"
+					height="232" src="images/modal/superman_modal.png"
+					alt="block de langauge web">
 
-                            <p><i class="fa fa-clock-o"></i> Bonjour mon nom est Rafael Rubio et je suis un développeur fullstack</p>
-
-                            <p>En tant que créateur de site web, j'utilise mes talents ainsi que ma créativité 
-							afin de créer ce projet qui est basé sur une de mes passion qui est la collection de comic book </p>
-
-                            <p>À travers mes diverses connaissance et compétences, ce projet est entièrement développé sous les languages suivants:
-							   HTML5, CSS3, BOOTSTRAP, W3CSS, JAVA SCRIPT, JAVA JEE,MYSQL </p>
-
-                            <p>Mes pouvoirs en tant qu'intégrateur web est la créativité combiné avec la passion et l'inspiration
-							   dans le but de délivrer un projet original et fonctionnel qui bien sûre va satisfaire aux exigences du client.
-							</p>
-                        </div>
-
-                        <div class="col-lg-4 col-md-4 col-sm-12">
-                            <img class="img-responsive  reduced_1200-300" width="360" height="232"
-                                 src="images/superman.jpg"
-                                 alt="block de langauge web">
-
-                            <p id="intro_text">Je garde toujours le cap vers l'avant.</p>
-                        </div>
-						    </div>     <!-- /.Row -->
-							    </div>
-								 
-   </section>
-                 
-                   
-
-<script>
-$(document).ready(function(){
-    // Activate Carousel
-    $("#myCarousel").carousel();
-    
-    // Enable Carousel Indicators
-    $(".item1").click(function(){
-        $("#myCarousel").carousel(0);
-    });
-    $(".item2").click(function(){
-        $("#myCarousel").carousel(1);
-    });
-    $(".item3").click(function(){
-        $("#myCarousel").carousel(2);
-    });
-    $(".item4").click(function(){
-        $("#myCarousel").carousel(3);
-    });
-    
-    // Enable Carousel Controls
-    $(".left").click(function(){
-        $("#myCarousel").carousel("prev");
-    });
-    $(".right").click(function(){
-        $("#myCarousel").carousel("next");
-    });
-});
-</script>
-
-
-
-</body>
-</html>
+				<h4 class="w3-center">Je garde toujours le cap vers l'avant.</h4>
+			</div>
+		</div>
+		<!-- /.Row -->
+	</div>
+	</section>
+	<%@ include file="includes/footer_accueil.jsp"%><!-- ========= INCLUDE FOOTER ============   -->
