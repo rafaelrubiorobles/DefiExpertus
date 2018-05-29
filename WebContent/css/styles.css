@@ -65,6 +65,85 @@ section#section_intro.container,footer{
 
 /*[PAGE ACCUEIL-FIN]=======================================================================*/
 
+/*[PAGE PERSONNAGE]========================================================================*/
+
+.superman_bg_color_1{background-color:#4da2dc !important}  
+.superman_bg_color_2{background-color:#e42a2a !important} 
+
+.batman_bg_color_1{background-color:#767676 !important}  
+.batman_bg_color_2{background-color:#722482 !important}  
+
+.joker_bg_color_1{background-color:#666699 !important}  
+.joker_bg_color_2{background-color:#1d988d !important}
+
+.wonder_woman_bg_color_1{background-color:#d6ae37 !important}  
+.wonder_woman_bg_color_2{background-color:#ad5f3c !important} 
+
+.batman_modal{
+.batman_bg_color_1{background-color:#767676 !important}  
+}
+
+.hero_modal{
+  height: 500px!important;
+}
+
+.modal_superman_image {
+  background-image: url("../images/modal/superman_modal_bg.png");
+}
+
+.modal_batman_image {
+  background-image: url("../images/modal/batman_modal_bg.png");
+}
+
+.modal_joker_image {
+  background-image: url("../images/modal/joker_modal_bg.png");
+}
+
+.modal_wonder_woman_image{
+  background-image: url("../images/modal/wonder_woman_modal_bg.png");
+}
+
+.modal_superman_image,.modal_batman_image,.modal_joker_image,.modal_wonder_woman_image {
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/*Rating stars */
+.checked {
+    color: orange;
+}
+
+
+/*Rating stars */
+.checked_2 {
+    color: #f44336;
+}
+span.fa.fa-star{
+	font-size:36px
+}
+
+#h1_perso{
+	color:#3333ff;
+}
+
+#h2_perso{
+	color:#531873;
+}
+
+#captain_america_img {
+ display:inline;
+  width: 15%;
+  height: auto;
+}
+
+#card_personnage{
+	margin-bottom:50px;
+}
+
+/*[PAGE PERSONNAGE-FIN]===================================================================*/
 /*[PAGE GESTION-BD]===========================================================================*/
   .carousel-inner > .item > img,
   .carousel-inner > .item > a > img {
