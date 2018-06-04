@@ -13,7 +13,8 @@
 					<!-------------------------ACCUEIL --------------------------->
 					<li><a href="accueil.jsp">Accueil</a></li>
 					<li><a href="personnage.jsp">Personnages</a></li>
-					<li><a href="gestion-bd.jsp">Gestion BD </a></li>
+					<li><a href="comicBook_Form.jsp">Comic Book Formulaire</a></li>
+					<li><a href="ComicBook_Servlet">Comic Book List</a></li>							
 				</ul>
 				<ul class="nav navbar-nav navbar-right">
 					<!------------SOCIAL MEDIA --------------------------->

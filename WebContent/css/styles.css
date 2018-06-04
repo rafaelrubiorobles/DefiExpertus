@@ -144,6 +144,8 @@ span.fa.fa-star{
 }
 
 /*[PAGE PERSONNAGE-FIN]===================================================================*/
+
+
 /*[PAGE GESTION-BD]===========================================================================*/
   .carousel-inner > .item > img,
   .carousel-inner > .item > a > img {
@@ -159,7 +161,41 @@ img.img_inline.img-responsive{
 display: inline;
 }
 
+button.btn.btn-warning.glyphicon.glyphicon-pencil.btn_form{
+    color:black;
+}
+
+.btn-warning {
+    color: #962323;
+}
+
+button.btn.btn-danger.glyphicon.glyphicon-trash.btn_form.btn-lg {
+    color: #480404 !important;
+}
 /*[PAGE GETION-BD_FIN]=======================================================================*/
+
+/*[PAGE COMICBOOK_FORM]===========================================================================*/
+/*
+div.container.w3-center {
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+    text-align: center;
+}
+*/
+.comicBook_formulaire input{
+	width:300px;
+}	
+
+.comicBook_formulaire ul{
+ list-style-type: none;
+}	
+
+form.comicBook_formulaire li {
+    padding-bottom: 15px;
+}
+/*[PAGE COMICBOOK_FORM_FIN]=======================================================================*/
+
 
 /*===========================================================================[FOOTER]*/
 footer.container.text-center{
