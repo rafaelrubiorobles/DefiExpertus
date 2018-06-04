@@ -8,7 +8,7 @@ public class ConnectionBDD {
  
 	private static final String url = "jdbc:mysql://localhost:3306/comic_book_bd";
 	private static final String identifiant = "root";
-	private static final String pwd = "";
+	private static final String pwd = "abc123...";
 	private static Connection connection = null;
 
 	private static void getConnection() {
